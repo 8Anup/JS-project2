@@ -1,0 +1,96 @@
+.slick-slide {
+    width: 100%;
+    margin: 0 80px;
+    padding-top: 1%;
+}
+
+.slick-dots {
+    list-style-type: none;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots button {
+    display: inline-block;
+    font-size: 0px;
+    color: #ccc;
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-active button {
+    background-color: #aaa;
+}
+.homepage-section {
+    padding: 6% 8% 0;
+    padding-bottom: 2%;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 19%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+}
+
+.product-card:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 86, 86);
+    transition: .1s;
+    box-shadow: 1px 1px 10px rgb(118, 115, 115);
+}
+.product-image {
+    width: 100%;
+}
+
+.product {
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.product>h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product>h5 {
+    font-weight: 600;
+    margin: 0;
+    margin-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.product>p {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #009688;
+    font-family: Arial, Helvetica, sans-serif;   
+}
